@@ -1,5 +1,6 @@
 body {
   background-color: rgb(116, 173, 116);
+  padding-bottom: 15px;
 }
 
 .App {
@@ -52,4 +53,8 @@ td:nth-child(even) {
   border-radius: 12px;
   margin-top: 10px;
   text-align: center;
+}
+
+h2 {
+  margin: 0;
 }
