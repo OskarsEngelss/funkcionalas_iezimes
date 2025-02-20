@@ -1,4 +1,5 @@
 import TranslationsTable from './TranslationsTable';
+import CombinedQuestions_Answers from './CombinedQuestions_Answers';
 import './App.css';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
         <div className="App">
             <h1>Gherkin Term Translations</h1>
             <TranslationsTable />
+            <CombinedQuestions_Answers />
         </div>
     );
 }

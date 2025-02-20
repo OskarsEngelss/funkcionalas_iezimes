@@ -1,35 +1,55 @@
 body {
-    background-color: rgb(116, 173, 116);
+  background-color: rgb(116, 173, 116);
 }
 
 .App {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 table {
-    border-collapse: collapse;
-  }
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px 25px;
+  border: 1px solid #ddd;
+}
+
+th {
+  text-align: end;
+}
+th:nth-child(even) {
+  text-align: left;
+}
+
+td {
+  text-align: end;
+}
+td:nth-child(even) {
+  text-align: left;
+}
+
+.answer_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
   
-  th, td {
-    padding: 10px 25px;
-    border: 1px solid #ddd;
-  }
-  
-  th {
-    text-align: end;
-  }
-  th:nth-child(even) {
-    text-align: left;
-  }
-  
-  td {
-    text-align: end;
-  }
-  td:nth-child(even) {
-    text-align: left;
-  }
-  
+.answer {
+  background-color: rgb(213, 237, 247);
+  padding: 15px 30px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 12px;
+  margin-top: 10px;
+  text-align: center;
+}
